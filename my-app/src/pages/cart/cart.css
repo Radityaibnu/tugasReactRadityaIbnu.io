@@ -1,0 +1,23 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartItem{
+    width: 700px;
+    height: 250px;
+    display: flex;
+
+    align-items: center;
+    box-shadow: 0px 3px 15px black;
+    border-radius: 25px;
+    margin: 30px;
+}
+.cartItem img{
+    width: 200px;
+}
+.cartItem .desk{
+    width: 100%;
+    font-size: 30px;
+}
